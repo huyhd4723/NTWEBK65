@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joe's Travel Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+  background-image: url('images/ocean.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #ffef9f;
+    }
+    .menu a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+    .hero {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px 40px;
+      border-radius: 10px;
+    }
+    .hero h1 {
+      margin: 0;
+    }
+    .hero p {
+      margin: 10px 0;
+    }
+    .hero button {
+      background-color: yellow;
+      border: none;
+      padding: 10px 20px;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    main {
+      background-color: #d4f9fa;
+      padding: 40px 0;
+      text-align: center;
+    }
+    .highlights {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+    .highlight {
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      width: 250px;
+    }
+    .highlight img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .highlight p {
+      margin: 10px;
+      font-weight: bold;
+    }
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+    .footer-icons i {
+      margin: 0 10px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">TRAVEL GOALS</div>
+      <div class="menu">
+        <a href="#">Destinations</a>
+        <a href="#">About</a>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>JOE'S TRAVEL PAGE</h1>
+      <p>LET'S EXPLORE THE WORLD TOGETHER!</p>
+      <button>Discover places</button>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>HIGHLIGHTS</h2>
+      <div class="highlights">
+        <div class="highlight">
+          <img src="images/miami.jpg" alt="MIAMI">
+          <p>MIAMI USA</p>
+        </div>
+        <div class="highlight">
+          <img src="images/munich.jpg" alt="Munich">
+          <p>MUNICH <span style="color: teal">GERMANY</span></p>
+        </div>
+        <div class="highlight">
+          <img src="images/barcelona.jpg" alt="Barcelona">
+          <p>BARCELONA <span style="color: teal">SPAIN</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-icons">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-facebook"></i>
+    </div>
+  </footer>
+</body>
+</html>c:\Users\Admin\Documents\Zalo Received Files\assets\extra-files\ocean.jpg
